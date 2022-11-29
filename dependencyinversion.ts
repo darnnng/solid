@@ -21,13 +21,13 @@ class Http {
 
 //with principle
 
+interface Connection {
+	request(url: string, options: any): any;
+}
+
 class xmlHttpRequestService {
 	open() { }
 	send() { }
-}
-
-interface Connection {
-	request(url: string, options: any): any;
 }
 
 class xmlHttpService implements Connection {
@@ -50,3 +50,19 @@ class Http {
 		this.httpConnection.request(url, 'POST');
 	}
 }
+
+
+// simple example 
+
+interface ITest {
+        do() {}
+    }
+    
+class Test1 implements ITest {
+        do() {}
+    }
+
+class Test2 implements ITest {
+        do() {}
+    }
+    

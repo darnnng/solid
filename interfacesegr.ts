@@ -21,6 +21,6 @@ interface IWorker {
   testCode: () => void;
 }
 
-class Programmer implements IWorker {
-  //
-}
+// class Programmer implements IWorker {
+//   //
+// }

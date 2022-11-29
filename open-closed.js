@@ -2,26 +2,27 @@
 
 class Assistant {
     sayHi() {
-      console.log('Hi! Nice to meet you.');
+      console.log('Hello');
     }
     sayGoodbye() {
-      console.log('Bye! See you later.');
+      console.log('Goodbye');
     }
   }
 
 // with open-closed
 
 const phrases = {
-    hi: 'Hi! Nice to meet you.',
-    bye: 'Bye! See you later.',
+    hi: 'Hello',
+    bye: 'Goodbye',
   };
   
 class Assistant {
-    say(phrase) {
-        console.log(`${phrase}`);
-    }
+  say(phrase) {
+    console.log(`${phrase}`);
+  }
 }
 
-const Sara = new Assistant();
+const Daria = new Assistant();
+
 
 

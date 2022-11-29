@@ -4,20 +4,16 @@ class Bird {
     fly(){
         //..
     }
-}
-
-class Eagle extends Bird {
     layEgg(){
+        //..
+    }
+    swim() {
         //..
     }
 }
 
-const eagle = new Eagle();
-eagle.fly();
-eagle.layEgg();
-
 class Penguin extends Bird(){
-   // Can't fly! 
+   // Penguins can't fly! 
 }
 
 // with principle
@@ -39,9 +35,3 @@ class Penguin extends SwimmingBird {}
 const penguin = new Penguin();
 penguin.swim();
 penguin.layEgg();
-
-class Eagle extends FlyingBird {}
-
-const eagle = new Eagle();
-eagle.fly();
-eagle.layEgg();
